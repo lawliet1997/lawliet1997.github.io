@@ -128,8 +128,9 @@ Follow the official [Install Docker Compose](https://docs.docker.com/compose/ins
   3c2309e92dc6        treehouses/couchdb:2.1.1    "tini -- /docker-ent…"   39 seconds ago      Up 48 seconds               4369/tcp, 9100/tcp, 0.0.0.0:2200->5984/tcp   planet_couchdb_1
   ```
 
-1. See log in action with `docker-compose -f planet.yml -p planet logs -f`, press 'CTRL+C' to exit logs view
+1. See log in action with `docker-compose -f planet.yml -p planet logs -f`, until you see planet_db-init_1 exited with code 0 as shown on image below:
 
+![Code](images/Issue.png)
 ---
 
 ## Planet Configuration
